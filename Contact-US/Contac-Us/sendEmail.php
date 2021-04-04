@@ -11,7 +11,7 @@ if(isset($_POST['nameSubmit']))
   $name = $_POST['name'];
   $email = $_POST['Email'];
   $body = $_POST['Message'];
-  $sendTo="a.programmer.blog@gmail.com ";//Write the Email name
+  $sendTo="example@gmail.com ";//Write the Email name
 
 
 
@@ -23,7 +23,7 @@ try {
     $mail->isSMTP();                                            //Send using SMTP
     $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-    $mail->Username   = "site.email85@gmail.com";                    //Write the Email name
+    $mail->Username   = "example@gmail.com";                    //Write the Email name
     $mail->Password   = "passwordforemail";                             //Write the Email password
     $mail->Port = 465;
     $mail->SMTPSecure = "ssl";                               //TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
