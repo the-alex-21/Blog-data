@@ -1,0 +1,61 @@
+body{
+  background: linear-gradient(100deg, rgba(254, 10, 10, 1) 0%, rgba(139, 0, 139, 1) 50%, rgb(75, 0, 130) 100%) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-size: 100% 100%;
+}
+.cont-Cont-us{
+  width:50%;
+  height:300px;
+  margin-left:25%;
+  background:rgba(255,255,255,0.5);
+  box-shadow: 10px 5px 10px rgba(255,255,255,0.5);
+  margin-top:40%;
+  padding:20px;
+  position:relative;
+}
+h1{
+  color:white;
+  text-align: center;
+}
+.input-cont{
+  position:relative;
+  margin-top:20%;
+}
+.input-group{
+  margin-bottom:10px;
+}
+.form-floating{
+  margin-bottom:10px;
+}
+textarea{
+  height: 100px
+}
+button{
+  margin-right:20px
+}
+#error{
+  text-align:center;
+  color:red;
+}
+#none{
+  text-align:center;
+  color:green;
+}
+@media only screen and (min-width:768px) {
+  .cont-Cont-us{
+    margin-top:30%;
+    height:500px;
+  }
+}
+@media only screen and (min-width:1000px) {
+  .cont-Cont-us{
+    margin-top:5%;
+    height:500px;
+  }
+  .input-cont{
+    margin-top:15%;
+  }
+}
